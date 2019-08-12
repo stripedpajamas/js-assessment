@@ -81,7 +81,6 @@ describe('permutation', function() {
 
   it('you should be able to return the permutations of an array', function() {
     var result = recursionAnswers.permute(arr);
-    console.log(result)
     var resultStrings = _.map(result, function(r) { return r.join(''); });
 
     expect(result.length).to.eql(answer.length);
